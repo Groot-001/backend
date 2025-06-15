@@ -9,7 +9,7 @@ require('./Connections/connection')
 app.use(cookieParser());
 
 app.use(cors({
-    origin: '*',
+    origin: 'https://backend-3-e5zd.onrender.com',
     credentials: true,
 }));
 
