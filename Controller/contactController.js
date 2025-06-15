@@ -1,5 +1,6 @@
 const contactModel = require("../Models/contactModel")
-const { contactSchema } = require('/Campus Collab/Shared/contactSchema')
+const contactSchema = require('../Validation/contactValidation')
+
 
 exports.contact = async (req, res) => {
     try {
