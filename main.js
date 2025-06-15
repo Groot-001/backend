@@ -9,7 +9,7 @@ require('./Connections/connection')
 app.use(cookieParser());
 
 app.use(cors({
-    origin: 'https://campuscollav.netlify.app/',
+    origin: '*',
     credentials: true,
 }));
 
